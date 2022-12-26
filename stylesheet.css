@@ -1,0 +1,92 @@
+h1{
+  text-align: center;
+}
+.title{
+    color: blueviolet;
+    margin: 40px 0 60px 0;
+    
+}
+.heading{
+  color: black;
+  margin: 40px 0 60px 0;
+  
+}
+
+body{
+  background-image: url(https://images.pexels.com/photos/2179373/pexels-photo-2179373.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+} 
+
+.drum{
+  border: none;
+  color: blue;
+  padding:30px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 40px 55px;
+  cursor: pointer;
+}
+.drum{
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.w{
+  background-image: url("crash.png");
+ 
+}
+.a{
+  background-image: url("kick.png");
+}
+.s{
+  background-image: url("snare.png");
+}
+.d{
+  background-image: url("tom1.png");
+}
+.j{
+  background-image: url("tom2.png");
+}
+.k{
+  background-image: url("tom3.png");
+}
+
+
+#foot{
+  color: hotpink;
+  margin: 10px 0 70px 0;
+}
+
+.lsideImg {
+  width: 100px;
+  height: 100px;
+  background-image: url(tom4.png);
+  display:inline-block ;
+  position: relative;
+  animation: myfirst 3s infinite;
+  animation-direction: alternate;
+  
+
+ 
+}
+
+@keyframes myfirst{
+  0%   { background-image: url(https://e7.pngegg.com/pngimages/937/711/png-clipart-a-snare-drum-etiquette-photography-drum.png); left: 0px; top: 0px;}
+  100%  { left: 200px; top: 0px;}
+}
+
+
+
+
